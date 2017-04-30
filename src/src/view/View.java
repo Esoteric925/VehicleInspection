@@ -1,17 +1,23 @@
 package view;
 
+import controller.Controller;
+import model.CreditCard;
 import model.Inspection;
+import model.InspectionItem;
 
 /**
  * Created by Amir on 2017-04-30.
  */
 public class View {
 
-    Inspection inspection;
+    Controller controller;
 
-    public View(Inspection inspection){
-        this.inspection = inspection;
+    public View(Controller controller){
+
+    this.controller = controller;
+
     }
+
 
 
 }

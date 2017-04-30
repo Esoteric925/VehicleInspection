@@ -5,8 +5,9 @@ package model;
  */
 public class InspectionItem {
 
-    private String item;
-    private boolean status;
+
+    boolean status;
+    String item;
 
     public boolean getStatus(){
         return status;
@@ -17,4 +18,11 @@ public class InspectionItem {
     }
 
 
+    public void setItem(String item){
+        this.item = item;
+    }
+
+    public String getItem(){
+        return item;
+    }
 }
