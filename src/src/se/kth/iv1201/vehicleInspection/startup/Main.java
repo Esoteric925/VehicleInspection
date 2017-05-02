@@ -28,15 +28,9 @@ public class Main {
         CashRegister cashRegister = new CashRegister();
         PaymentAuthorization paymentAuthorization = new PaymentAuthorization();
         inspectionRegistry.initRegistry();
-        Scanner reader = new Scanner(System.in);
 
-        System.out.println("Enter a registration number to begin inspection [NNNN]: ");
-        int regNr = reader.nextInt();
-
-
-        Inspection inspection = new Inspection(regNr, inspectionRegistry.getInspection(regNr), inspectionRegistry);
-        Controller controller = new Controller(garage, printer, inspection, cashRegister, inspectionRegistry, paymentAuthorization);
-        View view = new View(controller, regNr);
+        Controller controller = new Controller(garage, printer, cashRegister, inspectionRegistry, paymentAuthorization);
+        View view = new View(controller, inspectionRegistry);
         view.start();
     }
 }

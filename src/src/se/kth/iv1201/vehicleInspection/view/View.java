@@ -1,7 +1,9 @@
 package se.kth.iv1201.vehicleInspection.view;
 
 import se.kth.iv1201.vehicleInspection.controller.Controller;
+import se.kth.iv1201.vehicleInspection.integration.InspectionRegistry;
 import se.kth.iv1201.vehicleInspection.model.CreditCard;
+import se.kth.iv1201.vehicleInspection.model.Inspection;
 import se.kth.iv1201.vehicleInspection.model.InspectionItem;
 
 import java.util.*;
@@ -12,22 +14,29 @@ import java.util.*;
 public class View {
 
     Controller controller;
-    int regNr;
+    InspectionRegistry inspectionRegistry;
+
 
     /**
      * Creates a new instance, representing the specified view.
      * @param controller The controller for the inspection program
-     * @param regNr the registration number for the vehicle to be inspected
+     * @param inspectionRegistry the registry for where inspection data are being held
      */
-    public View(Controller controller, int regNr){
+    public View(Controller controller, InspectionRegistry inspectionRegistry){
         this.controller = controller;
-        this.regNr = regNr;
+        this.inspectionRegistry = inspectionRegistry;
     }
 
     /**
      * Represents the TUI(Textbased UI) for the inspection program
      */
     public void start(){
+
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Enter a registration number to begin inspection [NNNN]: ");
+        int regNr = reader.nextInt();
+        Inspection inspection = new Inspection(regNr, controller.getInspectionList(regNr), inspectionRegistry);
+        controller.setInspection(inspection);
         System.out.println("The inspector is initiating the inspection");
         controller.initiateInspection();
         controller.closeTheDoor();
@@ -37,7 +46,6 @@ public class View {
         System.out.println("The cost is: " + cost);
         System.out.println();
 
-        Scanner reader = new Scanner(System.in);
         System.out.println("Do you want to pay with cash or creditcard? [cash/card]: ");
         boolean paymentStatus = true;
         while(paymentStatus == true) {

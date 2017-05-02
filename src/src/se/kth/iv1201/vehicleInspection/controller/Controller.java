@@ -28,22 +28,26 @@ public class Controller {
      * Creates an instance of the controller with all objects needed to be able to make business logic calls
      * @param garage
      * @param printer
-     * @param inspection
      * @param cashRegister
      * @param inspectionRegistry
      * @param paymentAuthorization
      */
-    public Controller(Garage garage, Printer printer, Inspection inspection, CashRegister cashRegister,
+    public Controller(Garage garage, Printer printer, CashRegister cashRegister,
                       InspectionRegistry inspectionRegistry, PaymentAuthorization paymentAuthorization){
 
         this.garage = garage;
         this.printer = printer;
-        this.inspection = inspection;
         this.cashRegister = cashRegister;
         this.inspectionRegistry = inspectionRegistry;
         this.paymentAuthorization = paymentAuthorization;
+    }
 
+    public void setInspection(Inspection inspection){
+        this.inspection = inspection;
+    }
 
+    public List<InspectionItem> getInspectionList(int regNr){
+        return inspectionRegistry.getInspection(regNr);
     }
 
     /**
