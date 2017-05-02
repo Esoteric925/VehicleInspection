@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f555aaca-cfb8-4c9a-9348-77efebc201de" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/integration/PaymentAuthorizationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/PaymentAuthorizationTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/controller/Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/controller/ControllerTest.class" afterPath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/controller/ControllerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/integration/GarageTest.class" afterPath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/integration/GarageTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistry.class" afterPath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/integration/Printer.class" afterPath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/integration/Printer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/model/InspectionTest.class" afterPath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/model/InspectionTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/view/View.class" afterPath="$PROJECT_DIR$/out/production/src/se/kth/iv1201/vehicleInspection/view/View.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/controller/Controller.java" afterPath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/controller/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/controller/ControllerTest.java" afterPath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/controller/ControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistry.java" afterPath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/Printer.java" afterPath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/Printer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionTest.java" afterPath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/view/View.java" afterPath="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/view/View.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,85 +36,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InspectionRegistry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-293">
-              <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InspectionRegistryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Garage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/Garage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding>
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GarageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/GarageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="34" column="72" lean-forward="true" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreditCard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CreditCard.java">
+      <file leaf-file-name="CreditCardTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CreditCardTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-              <folding>
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-              </folding>
+              <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inspection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/Inspection.java">
+      <file leaf-file-name="PrinterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/PrinterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-              <folding>
-                <element signature="e#2303#2304#0" expanded="true" />
-                <element signature="e#2347#2348#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="326">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,18 +59,8 @@
       <file leaf-file-name="ControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/controller/ControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/view/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="47" column="41" lean-forward="false" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+            <state relative-caret-position="565">
+              <caret line="145" column="51" lean-forward="false" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -131,9 +69,67 @@
       <file leaf-file-name="InspectionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="199">
+              <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentAuthorization.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/PaymentAuthorization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/Printer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/view/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="74" column="45" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GarageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/GarageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-137">
+              <caret line="127" column="28" lean-forward="false" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="28" />
+              <folding>
+                <element signature="e#2054#2055#0" expanded="true" />
+                <element signature="e#2116#2117#0" expanded="true" />
+                <element signature="e#2303#2304#0" expanded="true" />
+                <element signature="e#2347#2348#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,6 +144,11 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>checkR</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistryTest.java" />
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionItem.java" />
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CreditCard.java" />
-        <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/Printer.java" />
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/PaymentAuthorization.java" />
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/startup/Main.java" />
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionItemTest.java" />
@@ -187,12 +187,13 @@
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CreditCardTest.java" />
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CashRegister.java" />
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/Inspection.java" />
-        <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistry.java" />
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/Garage.java" />
+        <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/GarageTest.java" />
+        <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistry.java" />
+        <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionTest.java" />
+        <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/Printer.java" />
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/view/View.java" />
-        <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/GarageTest.java" />
-        <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionTest.java" />
         <option value="$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/controller/ControllerTest.java" />
       </list>
     </option>
@@ -204,9 +205,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="815" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -226,8 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,6 +298,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vehicleInspection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="startup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,7 +385,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -692,6 +697,27 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
@@ -712,6 +738,43 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="erlFlags" value="" />
+      <option name="moduleAndFunction" value="" />
+      <option name="params" value="" />
+      <option name="useTestCodePath" value="false" />
+      <option name="workDirectory" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module />
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set />
+      </option>
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -872,12 +935,56 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="command" value="eunit" />
+      <option name="skipDependencies" value="true" />
+      <module />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -936,6 +1043,25 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="se.kth.iv1201.vehicleInspection.startup.Main" />
@@ -962,9 +1088,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.ControllerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GarageTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InspectionTest.inspectParts" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.InspectionTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InspectionTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GarageTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.InspectionTest.inspectParts" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.CreditCardTest" />
       </list>
     </recent_temporary>
@@ -1022,74 +1148,97 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ControllerTest - 2017.05.02 at 17h 12m 48s.xml">
+    <history-entry file="ControllerTest - 2017.05.02 at 18h 44m 55s.xml">
       <configuration name="ControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ControllerTest - 2017.05.02 at 17h 15m 36s.xml">
+    <history-entry file="ControllerTest - 2017.05.02 at 18h 45m 20s.xml">
       <configuration name="ControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ControllerTest - 2017.05.02 at 17h 16m 12s.xml">
+    <history-entry file="ControllerTest - 2017.05.02 at 18h 58m 40s.xml">
       <configuration name="ControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreditCardTest - 2017.05.02 at 12h 09m 58s.xml">
-      <configuration name="CreditCardTest" configurationId="JUnit" />
+    <history-entry file="ControllerTest - 2017.05.02 at 18h 59m 43s.xml">
+      <configuration name="ControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GarageTest - 2017.05.02 at 15h 12m 24s.xml">
-      <configuration name="GarageTest" configurationId="JUnit" />
+    <history-entry file="ControllerTest - 2017.05.02 at 19h 00m 56s.xml">
+      <configuration name="ControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InspectionTest - 2017.05.02 at 13h 57m 30s.xml">
+    <history-entry file="ControllerTest - 2017.05.02 at 19h 01m 14s.xml">
+      <configuration name="ControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest - 2017.05.02 at 19h 01m 44s.xml">
+      <configuration name="ControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest - 2017.05.02 at 19h 02m 06s.xml">
+      <configuration name="ControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest - 2017.05.02 at 19h 04m 35s.xml">
+      <configuration name="ControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InspectionTest - 2017.05.02 at 18h 51m 17s.xml">
       <configuration name="InspectionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InspectionTest - 2017.05.02 at 13h 58m 12s.xml">
-      <configuration name="InspectionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InspectionTest - 2017.05.02 at 13h 58m 27s.xml">
-      <configuration name="InspectionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InspectionTest - 2017.05.02 at 14h 06m 26s.xml">
-      <configuration name="InspectionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InspectionTest_inspectParts - 2017.05.02 at 14h 06m 49s.xml">
-      <configuration name="InspectionTest.inspectParts" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46624000" />
+    <option name="totallyTimeSpent" value="53175000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="815" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844576" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43695015" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46749654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42047027" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23424879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46749654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42047027" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1115,20 +1264,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/PaymentAuthorization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/Inspection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1493731045000" expanded="false" signature="1716:1722" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1137,7 +1279,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="48" />
-          <folding />
+          <folding>
+            <marker date="1493731045000" expanded="true" signature="379:385" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1160,6 +1304,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
             <element signature="e#2303#2304#0" expanded="true" />
             <element signature="e#2347#2348#0" expanded="true" />
           </folding>
@@ -1180,7 +1326,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="85" />
-          <folding />
+          <folding>
+            <element signature="e#929#930#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,7 +1347,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1206,10 +1358,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#230#231#0" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,6 +1368,7 @@
           <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1493731045000" expanded="false" signature="1716:1722" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1227,7 +1377,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1493731045000" expanded="true" signature="379:385" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,6 +1409,8 @@
         <state relative-caret-position="885">
           <caret line="67" column="64" lean-forward="false" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
           <folding>
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
             <element signature="e#2303#2304#0" expanded="true" />
             <element signature="e#2347#2348#0" expanded="true" />
           </folding>
@@ -1267,7 +1421,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#929#930#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1285,7 +1442,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,6 +1465,7 @@
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1493731045000" expanded="false" signature="1716:1722" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1313,7 +1474,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1493731045000" expanded="true" signature="379:385" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,6 +1506,8 @@
         <state relative-caret-position="645">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
             <element signature="e#2303#2304#0" expanded="true" />
             <element signature="e#2347#2348#0" expanded="true" />
           </folding>
@@ -1353,7 +1518,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#929#930#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1372,136 +1540,69 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/GarageTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/PaymentAuthorizationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/PrinterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="36" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/PaymentAuthorization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="82" lean-forward="false" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/startup/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CashRegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionItemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CashRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CreditCardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-293">
-          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CashRegisterTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionItemTest.java" />
     <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CreditCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding>
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/Garage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="47" column="41" lean-forward="false" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        <state relative-caret-position="197">
+          <caret line="26" column="79" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="62">
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/GarageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="34" column="72" lean-forward="true" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/Inspection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        <state relative-caret-position="167">
+          <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1493731045000" expanded="false" signature="1716:1722" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/InspectionRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="38" column="78" lean-forward="false" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1510,38 +1611,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/InspectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="199">
+          <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CreditCardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/PrinterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/PaymentAuthorizationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/GarageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/model/CashRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <marker date="1493731045000" expanded="true" signature="379:385" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="74" column="45" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/PaymentAuthorization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        <state relative-caret-position="-137">
+          <caret line="127" column="28" lean-forward="false" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="28" />
           <folding>
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
             <element signature="e#2303#2304#0" expanded="true" />
             <element signature="e#2347#2348#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/integration/Garage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/se/kth/iv1201/vehicleInspection/controller/ControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        <state relative-caret-position="565">
+          <caret line="145" column="51" lean-forward="false" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
           <folding />
         </state>
       </provider>

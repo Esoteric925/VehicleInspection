@@ -37,7 +37,8 @@ public class InspectionRegistry {
      * @param status shows the status for that inspected item
      */
     public void storeItemResult(InspectionItem inspectedPart, boolean status){
-        inspectedPart.setStatus(status);
+            inspectedPart.setStatus(status);
+
 
 
       /*for(int i = 0; i <inspectionDB.get(regNr).size(); i++){

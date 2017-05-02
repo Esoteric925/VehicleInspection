@@ -3,7 +3,6 @@ package se.kth.iv1201.vehicleInspection.view;
 import se.kth.iv1201.vehicleInspection.controller.Controller;
 import se.kth.iv1201.vehicleInspection.integration.InspectionRegistry;
 import se.kth.iv1201.vehicleInspection.model.CreditCard;
-import se.kth.iv1201.vehicleInspection.model.Inspection;
 import se.kth.iv1201.vehicleInspection.model.InspectionItem;
 
 import java.util.*;
@@ -49,7 +48,7 @@ public class View {
         System.out.println();
 
         System.out.println("The inspector has entered the registration number " + regNr + ". Calculating cost....");
-        double cost = controller.checkRegNr(regNr);
+        double cost = controller.checkRegNrAndCost(regNr);
         System.out.println("The cost is: " + cost);
         System.out.println();
 
@@ -60,8 +59,11 @@ public class View {
             while (true) {
                 if (payment.equalsIgnoreCase("cash")) {
                     System.out.println("You chose cash");
-                    controller.payByCash(cost);
+
+                    String cashPaymentMsg = controller.payByCash(cost);
                     System.out.println("Payment by cash done in cash registry with cost " + cost);
+                    System.out.println("Printing receipt for payment by cash...");
+                    System.out.println(cashPaymentMsg);
 
                     paymentStatus = false;
                     System.out.println();

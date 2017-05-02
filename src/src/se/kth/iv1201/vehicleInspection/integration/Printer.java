@@ -14,8 +14,9 @@ public class Printer {
      * Prints receipt for cash payment
      * @param cost the cost for the specified inspection
      */
-    public void printCashReceipt(double cost){
-        System.out.println("Payment " + cost);
+    public String printCashReceipt(double cost){
+
+        return "Payment " + cost;
     }
 
     /**

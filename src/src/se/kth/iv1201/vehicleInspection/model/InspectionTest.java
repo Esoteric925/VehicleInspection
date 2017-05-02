@@ -46,8 +46,13 @@ public class InspectionTest {
 
     @Test
     public void storeItemResult() throws Exception {
-
-
+        boolean statusFalse = false;
+        boolean statusTrue = true;
+        InspectionItem item = new InspectionItem();
+        item.setStatus(statusFalse);
+        inspectionRegistry.storeItemResult(item, statusFalse);
+        assertTrue(item.getStatus() == statusFalse);
+        assertFalse(item.getStatus() == statusTrue);
 
     }
 

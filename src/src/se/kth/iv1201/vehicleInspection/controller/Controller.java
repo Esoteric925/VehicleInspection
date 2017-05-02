@@ -87,7 +87,7 @@ public class Controller {
      * @param regNr the registration number for the vehicle
      * @return returns the cost for the found inspection
      */
-    public double checkRegNr(int regNr){
+    public double checkRegNrAndCost(int regNr){
        List<InspectionItem> foundInspection = inspectionRegistry.getInspection(regNr);
         double cost = 0;
         if(foundInspection != null){
@@ -122,10 +122,10 @@ public class Controller {
      * Represents payment with cash. It stores the cost in the cash register and prints the receipt to the customer
      * @param cost the cost for the inspection
      */
-    public void payByCash(double cost){
+    public String payByCash(double cost){
         cashRegister.payment(cost);
-        System.out.println("Printing receipt for payment by cash...");
-        printer.printCashReceipt(cost);
+
+        return printer.printCashReceipt(cost);
 
     }
 
