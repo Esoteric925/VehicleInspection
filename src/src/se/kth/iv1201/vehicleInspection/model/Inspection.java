@@ -4,7 +4,6 @@ import se.kth.iv1201.vehicleInspection.integration.InspectionRegistry;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 /**
  * Represents an inspection for a specific vehicle
@@ -49,7 +48,7 @@ public class Inspection {
      *
      * @return The list of all items to be inspected in the specified inspection
      */
-    public List<InspectionItem> inspectParts(){
+    public List<InspectionItem> getInspectionParts(){
         return inspectionItems;
     }
 

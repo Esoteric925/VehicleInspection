@@ -39,8 +39,13 @@ public class View {
         controller.createInspection(regNr);
 
         System.out.println("The inspector is initiating the inspection");
-        controller.initiateInspection();
-        controller.closeTheDoor();
+
+        String openDoorMsg = controller.openDoor();
+        String nextCustomerMsg = controller.nextCustomer();
+        String doorClosingMsg = controller.closeTheDoor();
+        System.out.println(openDoorMsg);
+        System.out.println(nextCustomerMsg);
+        System.out.println(doorClosingMsg);
         System.out.println();
 
         System.out.println("The inspector has entered the registration number " + regNr + ". Calculating cost....");
@@ -56,6 +61,8 @@ public class View {
                 if (payment.equalsIgnoreCase("cash")) {
                     System.out.println("You chose cash");
                     controller.payByCash(cost);
+                    System.out.println("Payment by cash done in cash registry with cost " + cost);
+
                     paymentStatus = false;
                     System.out.println();
                     break;
@@ -86,11 +93,13 @@ public class View {
             String result = reader.next();
             if(result.equalsIgnoreCase("p")){
                 controller.storeItemResult(item, true);
+                System.out.println("The inspector has stored the item result for item: " + item.getItemName() + " with status: " + true);
                 System.out.println();
             }
             if(result.equalsIgnoreCase("f")){
                 item.setStatus(false);
                 controller.storeItemResult(item, false);
+                System.out.println("The inspector has stored the item result for item: " + item.getItemName() + " with status: " + false);
                 System.out.println();
             }
         }

@@ -7,17 +7,23 @@ public class Garage {
     /**
      * Closes the door to the customer
      */
-    public void closeDoor(){
-        System.out.println("Garage is closing the door");
+    public String closeDoor(){
+
+        return "Garage is closing the door";
     }
 
     /**
      * Opens the door to the customer
      */
-    public void openDoor(){ System.out.println("Garage is opening the door"); }
+    public String openDoor(){
+        return "Garage is opening the door";
+    }
 
     /**
      * Let the next customer in to the garage
      */
-    public void nextCustomer(){ System.out.println("Garage is showing next queue number and letting the customer in");}
+    public String nextCustomer(){
+
+        return "Garage is showing next queue number and letting the customer in";
+    }
 }

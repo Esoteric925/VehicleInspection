@@ -65,16 +65,21 @@ public class Controller {
     /**
      * Initiates the inspection by making calls to the garage
      */
-    public void initiateInspection(){
-        garage.openDoor();
-        garage.nextCustomer();
+    public String openDoor(){
+
+        return garage.openDoor();
+    }
+
+    public String nextCustomer(){
+        return garage.nextCustomer();
     }
 
     /**
      * Closes the garage door
      */
-    public void closeTheDoor(){
-        garage.closeDoor();
+    public String closeTheDoor(){
+
+        return  garage.closeDoor();
     }
 
     /**
@@ -97,7 +102,7 @@ public class Controller {
      * @return the list of all parts that need to be inspected for the vehicle
      */
     public List<InspectionItem> checkWhatToInspect(){
-         List<InspectionItem> inspectedParts = inspection.inspectParts();
+         List<InspectionItem> inspectedParts = inspection.getInspectionParts();
 
 
         return inspectedParts;
@@ -118,7 +123,7 @@ public class Controller {
      * @param cost the cost for the inspection
      */
     public void payByCash(double cost){
-        cashRegister.payment(cost); //måste ha en cashregister i controller
+        cashRegister.payment(cost);
         System.out.println("Printing receipt for payment by cash...");
         printer.printCashReceipt(cost);
 

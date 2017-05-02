@@ -39,7 +39,6 @@ public class InspectionRegistry {
     public void storeItemResult(InspectionItem inspectedPart, boolean status){
         inspectedPart.setStatus(status);
 
-        System.out.println("The inspector has stored the item result for item: " + inspectedPart.getItemName() + " with status: " + status);
 
       /*for(int i = 0; i <inspectionDB.get(regNr).size(); i++){
             System.out.println("item: " + inspectionDB.get(regNr).get(i).getItemName() + " status: " + inspectionDB.get(regNr).get(i).getStatus());
