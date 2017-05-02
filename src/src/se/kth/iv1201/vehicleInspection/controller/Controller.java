@@ -42,13 +42,25 @@ public class Controller {
         this.paymentAuthorization = paymentAuthorization;
     }
 
-    public void setInspection(Inspection inspection){
+    /**
+     * Creates an inspection
+     * @param regNr the registration number for the vehicle
+     */
+    public void createInspection(int regNr){
+        Inspection inspection = new Inspection(regNr, getInspectionList(regNr), inspectionRegistry);
         this.inspection = inspection;
     }
 
+    /**
+     *
+     * @param regNr the registration number for the vehicle
+     * @return the list with the inspection items
+     */
     public List<InspectionItem> getInspectionList(int regNr){
         return inspectionRegistry.getInspection(regNr);
     }
+
+
 
     /**
      * Initiates the inspection by making calls to the garage

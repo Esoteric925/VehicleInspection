@@ -22,33 +22,33 @@ public class CreditCardTest {
 
     @Test
     public void getPin() throws Exception {
-        CreditCard card = new CreditCard(2222, "1234 5678 9101 1213", "Anna Panna", new Date(), 322);
-        assertEquals("get pin matches",creditCard.getPin(), card.getPin());
+        Integer pin = 2222;
+        assertEquals("get pin matches",creditCard.getPin(), pin);
     }
 
     @Test
     public void getNumber() throws Exception {
-        CreditCard card = new CreditCard(2222, "1234 5678 9101 1213", "Anna Panna", new Date(), 322);
-        assertEquals("get number matches",creditCard.getNumber(), card.getNumber());
+        String number = "1234 5678 9101 1213";
+        assertEquals("get number matches",creditCard.getNumber(), number);
 
     }
 
     @Test
     public void getHolder() throws Exception {
-        CreditCard card = new CreditCard(2222, "1234 5678 9101 1213", "Anna Panna", new Date(), 322);
-        assertEquals("get holder matches",creditCard.getHolder(), card.getHolder());
+        String holder = "Anna Panna";
+        assertEquals("get holder matches",creditCard.getHolder(), holder);
     }
 
     @Test
     public void getExpiryDate() throws Exception {
-        CreditCard card = new CreditCard(2222, "1234 5678 9101 1213", "Anna Panna", new Date(), 322);
-        assertEquals("get expiry date matches",creditCard.getExpiryDate(), card.getExpiryDate());
+        Date expiryDate = new Date();
+        assertEquals("get expiry date matches",creditCard.getExpiryDate(), expiryDate);
     }
 
     @Test
     public void getCVC() throws Exception {
-        CreditCard card = new CreditCard(2222, "1234 5678 9101 1213", "Anna Panna", new Date(), 322);
-        assertEquals("get CVC matches",creditCard.getCVC(), card.getCVC());
+        Integer CVC = 322;
+        assertEquals("get CVC matches",creditCard.getCVC(), CVC);
     }
 
 }

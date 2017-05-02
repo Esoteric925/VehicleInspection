@@ -33,14 +33,16 @@ public class View {
     public void start(){
 
         Scanner reader = new Scanner(System.in);
+
         System.out.println("Enter a registration number to begin inspection [NNNN]: ");
         int regNr = reader.nextInt();
-        Inspection inspection = new Inspection(regNr, controller.getInspectionList(regNr), inspectionRegistry);
-        controller.setInspection(inspection);
+        controller.createInspection(regNr);
+
         System.out.println("The inspector is initiating the inspection");
         controller.initiateInspection();
         controller.closeTheDoor();
         System.out.println();
+
         System.out.println("The inspector has entered the registration number " + regNr + ". Calculating cost....");
         double cost = controller.checkRegNr(regNr);
         System.out.println("The cost is: " + cost);
@@ -59,10 +61,10 @@ public class View {
                     break;
                 } else if (payment.equalsIgnoreCase("card")) {
                     System.out.println("You chose credit card");
-                    System.out.println("Enter your pin please: "); // FRÅGA OM OKEJ ATT HA SÅHÄR
+                    System.out.println("Enter your pin please: ");
                     int pin = reader.nextInt();
                     CreditCard creditCard = new CreditCard(pin, "1234 5678 9101 1213", "Anna Panna", new Date(), 322);
-                    boolean success = controller.payByCard(creditCard, cost); //SKA VI KOLLA OM CREDITCARD FAILAR ELLER INTE?
+                    boolean success = controller.payByCard(creditCard, cost);
                     paymentStatus = false;
                     System.out.println();
                     break;
@@ -81,7 +83,7 @@ public class View {
             System.out.println("The inspector performed the inspection of the item: " + item.getItemName());
 
             System.out.println("Do inspector want to pass or fail item [p/f]");
-            String result = reader.next(); // Scans the next token of the input as an int.
+            String result = reader.next();
             if(result.equalsIgnoreCase("p")){
                 controller.storeItemResult(item, true);
                 System.out.println();

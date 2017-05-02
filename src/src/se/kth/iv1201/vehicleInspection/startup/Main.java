@@ -28,7 +28,6 @@ public class Main {
         CashRegister cashRegister = new CashRegister();
         PaymentAuthorization paymentAuthorization = new PaymentAuthorization();
         inspectionRegistry.initRegistry();
-
         Controller controller = new Controller(garage, printer, cashRegister, inspectionRegistry, paymentAuthorization);
         View view = new View(controller, inspectionRegistry);
         view.start();

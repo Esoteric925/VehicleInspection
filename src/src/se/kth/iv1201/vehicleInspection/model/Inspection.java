@@ -37,10 +37,9 @@ public class Inspection {
      */
     public double calculateCost(List<InspectionItem> inspectionItems){
         double cost = 0;
-        Random r = new Random();
 
         for(int i = 0; i < inspectionItems.size(); i++){
-            double d = 10.0 + r.nextDouble() * 100.0;
+            double d = 1000;
             cost +=  d;
         }
         return cost;

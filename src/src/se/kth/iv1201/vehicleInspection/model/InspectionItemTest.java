@@ -9,6 +9,7 @@ import static org.junit.Assert.*;
  * Created by araxi on 2017-05-01.
  */
 public class InspectionItemTest {
+
     @Before
     public void setUp() throws Exception {
         InspectionItem item = new InspectionItem();
