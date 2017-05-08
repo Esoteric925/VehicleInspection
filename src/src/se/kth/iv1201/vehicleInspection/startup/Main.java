@@ -1,13 +1,11 @@
 package se.kth.iv1201.vehicleInspection.startup;
 
 import se.kth.iv1201.vehicleInspection.controller.Controller;
-import se.kth.iv1201.vehicleInspection.integration.InspectionRegistry;
-import se.kth.iv1201.vehicleInspection.integration.PaymentAuthorization;
+import se.kth.iv1201.vehicleInspection.integration.*;
 import se.kth.iv1201.vehicleInspection.model.CashRegister;
+import se.kth.iv1201.vehicleInspection.model.IllegalLicenceNumberException;
 import se.kth.iv1201.vehicleInspection.model.Inspection;
 import se.kth.iv1201.vehicleInspection.view.View;
-import se.kth.iv1201.vehicleInspection.integration.Garage;
-import se.kth.iv1201.vehicleInspection.integration.Printer;
 
 import java.util.Scanner;
 
@@ -20,7 +18,7 @@ public class Main {
      * Initiates the start up for the inspection
      * @param args
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IllegalLicenceNumberException {
 
         InspectionRegistry inspectionRegistry = new InspectionRegistry();
         Printer printer = new Printer();

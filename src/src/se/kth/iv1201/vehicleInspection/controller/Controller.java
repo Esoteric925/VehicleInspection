@@ -1,14 +1,9 @@
 package se.kth.iv1201.vehicleInspection.controller;
 
-import se.kth.iv1201.vehicleInspection.integration.InspectionRegistry;
-import se.kth.iv1201.vehicleInspection.model.CashRegister;
-import se.kth.iv1201.vehicleInspection.model.Inspection;
-import se.kth.iv1201.vehicleInspection.integration.Garage;
-import se.kth.iv1201.vehicleInspection.integration.PaymentAuthorization;
-import se.kth.iv1201.vehicleInspection.integration.Printer;
-import se.kth.iv1201.vehicleInspection.model.CreditCard;
-import se.kth.iv1201.vehicleInspection.model.InspectionItem;
+import se.kth.iv1201.vehicleInspection.integration.*;
+import se.kth.iv1201.vehicleInspection.model.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -22,6 +17,7 @@ public class Controller {
     InspectionRegistry inspectionRegistry;
     PaymentAuthorization paymentAuthorization;
     CashRegister cashRegister;
+    InspectionObserver inspectionObserver;
 
 
     /**
@@ -42,11 +38,16 @@ public class Controller {
         this.paymentAuthorization = paymentAuthorization;
     }
 
+    public void addInspectionObserver(InspectionObserver inspectionObserver){
+        this.inspectionObserver = inspectionObserver;
+
+    }
+
     /**
      * Creates an inspection
      * @param regNr the registration number for the vehicle
      */
-    public void createInspection(int regNr){
+    public void createInspection(int regNr) throws IllegalLicenceNumberException{
         Inspection inspection = new Inspection(regNr, getInspectionList(regNr), inspectionRegistry);
         this.inspection = inspection;
     }
@@ -56,7 +57,7 @@ public class Controller {
      * @param regNr the registration number for the vehicle
      * @return the list with the inspection items
      */
-    public List<InspectionItem> getInspectionList(int regNr){
+    public List<InspectionItem> getInspectionList(int regNr) throws IllegalLicenceNumberException{
         return inspectionRegistry.getInspection(regNr);
     }
 
@@ -87,12 +88,17 @@ public class Controller {
      * @param regNr the registration number for the vehicle
      * @return returns the cost for the found inspection
      */
-    public double checkRegNrAndCost(int regNr){
-       List<InspectionItem> foundInspection = inspectionRegistry.getInspection(regNr);
+    public double checkRegNrAndCost(int regNr) throws IllegalLicenceNumberException{
+
+        List<InspectionItem> foundInspection = inspectionRegistry.getInspection(regNr);
+        inspectionRegistry.addInspectionObservers(inspectionObserver);
         double cost = 0;
-        if(foundInspection != null){
+
+
             cost = inspection.calculateCost(foundInspection);
-        }
+
+
+
 
         return cost;
     }

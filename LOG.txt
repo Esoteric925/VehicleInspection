@@ -1,0 +1,1 @@
+Time: Mon May 08 16:06:21 CEST 2017 Exception: se.kth.iv1201.vehicleInspection.model.IllegalLicenceNumberException: Unable to find an inspection with that licence number 12345
