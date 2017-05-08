@@ -1,0 +1,4 @@
+Time: Mon May 08 21:15:58 CEST 2017 Exception: se.kth.iv1201.vehicleInspection.integration.IllegalLicenceNumberException: Unable to find an inspection with that licence number 12345
+Time: Mon May 08 21:16:10 CEST 2017 Exception: se.kth.iv1201.vehicleInspection.integration.IllegalLicenceNumberException: Unable to find an inspection with that licence number 123455
+Time: Mon May 08 21:16:12 CEST 2017 Exception: se.kth.iv1201.vehicleInspection.integration.IllegalLicenceNumberException: Unable to find an inspection with that licence number 123456
+Time: Mon May 08 21:16:36 CEST 2017 Exception: se.kth.iv1201.vehicleInspection.integration.IllegalLicenceNumberException: Unable to find an inspection with that licence number 12345

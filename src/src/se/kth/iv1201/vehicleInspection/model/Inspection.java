@@ -61,5 +61,12 @@ public class Inspection {
         inspectionRegistry.storeItemResult(inspectedItem, status);
     }
 
+    /**
+     *
+     * @param status of the whole inspection
+     */
+    public void storeFinalResult(boolean status){
+        inspectionRegistry.storeFinalResult(status);
+    }
 
 }

@@ -1,7 +1,5 @@
 package se.kth.iv1201.vehicleInspection.integration;
 
-import se.kth.iv1201.vehicleInspection.model.IllegalLicenceNumberException;
-import se.kth.iv1201.vehicleInspection.model.Inspection;
 import se.kth.iv1201.vehicleInspection.model.InspectionItem;
 
 import java.util.ArrayList;
@@ -47,11 +45,10 @@ public class InspectionRegistry {
      * @param status shows the status for that inspected item
      */
     public void storeItemResult(InspectionItem inspectedPart, boolean status){
-        //SKA MAN UPPDATERA VIEWN MED VARJE PASSED/FAILED ITEM ELLER VARJE HEL INSPECTION
             inspectedPart.setStatus(status);
-            if(status == false){
+           /*if(status == false){
                 inspectionObserver.failedInspection(inspectedPart);
-            }
+            }*/
 
 
 
@@ -59,6 +56,19 @@ public class InspectionRegistry {
             System.out.println("item: " + inspectionDB.get(regNr).get(i).getItemName() + " status: " + inspectionDB.get(regNr).get(i).getStatus());
         }*/
 
+    }
+
+    /**
+     *
+     * @param status of the whole inspection
+     */
+
+    public void storeFinalResult(boolean status){
+        if(status == false){
+            inspectionObserver.failedWholeInspection(status);
+        }else{
+            inspectionObserver.passedWholeInspection();
+        }
     }
 
     /**

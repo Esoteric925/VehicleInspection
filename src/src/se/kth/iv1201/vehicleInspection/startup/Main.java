@@ -3,11 +3,8 @@ package se.kth.iv1201.vehicleInspection.startup;
 import se.kth.iv1201.vehicleInspection.controller.Controller;
 import se.kth.iv1201.vehicleInspection.integration.*;
 import se.kth.iv1201.vehicleInspection.model.CashRegister;
-import se.kth.iv1201.vehicleInspection.model.IllegalLicenceNumberException;
-import se.kth.iv1201.vehicleInspection.model.Inspection;
+import se.kth.iv1201.vehicleInspection.integration.IllegalLicenceNumberException;
 import se.kth.iv1201.vehicleInspection.view.View;
-
-import java.util.Scanner;
 
 /**
  * Represents the start up for the inspection

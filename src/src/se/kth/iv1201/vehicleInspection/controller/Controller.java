@@ -3,7 +3,6 @@ package se.kth.iv1201.vehicleInspection.controller;
 import se.kth.iv1201.vehicleInspection.integration.*;
 import se.kth.iv1201.vehicleInspection.model.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -121,6 +120,14 @@ public class Controller {
      */
     public void storeItemResult(InspectionItem inspectionItem, boolean status){
             inspection.storeItemResult(inspectionItem, status);
+    }
+
+    /**
+     *
+     * @param status of the whole inspection of a vehicle
+     */
+    public void storeFinalResult(boolean status){
+        inspection.storeFinalResult(status);
     }
 
 

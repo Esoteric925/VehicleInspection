@@ -8,7 +8,17 @@ import se.kth.iv1201.vehicleInspection.model.InspectionItem;
  */
 public interface InspectionObserver {
 
-    void passedInspection(InspectionItem inspectionItem);
 
-    void failedInspection(InspectionItem inspectionItem);
+
+    /**
+     *
+     * @param status of the whole inspection
+     */
+
+    void failedWholeInspection(boolean status);
+
+    /**
+     * Whole inspection if it has passed
+     */
+    void passedWholeInspection();
 }
